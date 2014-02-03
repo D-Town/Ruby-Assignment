@@ -11,4 +11,5 @@ def count_words(str)
   print("\n")
 end
 
+# Test Case
 count_words("Doo, bee, doo, bee, doo")

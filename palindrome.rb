@@ -21,8 +21,11 @@ module Enumerable
   end
 end
 
+# Test Cases
 palindrome?("A man, a plan, a canal -- Panama")
+
 print("asdf".palindrome?)
 print("\n")
+
 print([1,2,3,2,1].palindrome?)
 print("\n")

@@ -20,10 +20,12 @@ end
 
 class Foo
   attr_accessor_with_history :bar
+
+  # Test Case
   f = Foo.new
   f.bar = 1
   f.bar = 2
-  f.bar_history # => if your code works, should be [nil, 1, 2]
+  f.bar_history 
   print(f.bar_history)
   print("\n")
 end

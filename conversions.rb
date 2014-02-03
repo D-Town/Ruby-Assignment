@@ -21,7 +21,8 @@ class Numeric
  
 end
 
-print(5.dollars.in(:euros))
+# Test Cases
+puts 5.dollars.in(:euros)
 puts 10.euros.in(:rupees)
 puts 1.dollar.in(:rupees)
 puts 0.rupees.in(:euro)

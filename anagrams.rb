@@ -19,5 +19,6 @@ def combine_anagrams(words)
   print("\n")
 end
 
+# Test Cases
 input =  ['cars', 'for', 'potatoes', 'racs', 'four', 'scar', 'creams', 'scream']
 combine_anagrams(input)

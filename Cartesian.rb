@@ -19,22 +19,17 @@ class CartesianProduct
 
 end
 
-c = CartesianProduct.new([:a,:b], [4, 5])
 
+# Test Cases
+c = CartesianProduct.new([:a,:b], [4, 5])
 c.each { |elt| puts elt.inspect }
 
+# Output should be:
 # [:a, 4]
-
 # [:a, 5]
-
 # [:b, 4]
-
 # [:b, 5]
 
- 
-
-c = CartesianProduct.new([:car, :tes, :ian], [1,2,3])
-
+# Nothing printed since Cartesian array_b is empty.
+c = CartesianProduct.new([:car, :tes, :ian], [])
 c.each { |elt| puts elt.inspect }
-
-# Nothing printed since Cartesian pr
